@@ -1,0 +1,212 @@
+{
+  "main": {
+    "id": "0c16333fbbfd1dd6",
+    "type": "split",
+    "children": [
+      {
+        "id": "ad6fdaa7b5b71d3b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1cf2bb395998661b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SQL/Администрирование.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Администрирование"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "25afa6b537e005c7",
+    "type": "split",
+    "children": [
+      {
+        "id": "2a421951b4ad0000",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "525c3de497348018",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "8ba2c5fc624b6308",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "a9c9277201908167",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "2853a62a0f9ea739",
+    "type": "split",
+    "children": [
+      {
+        "id": "a504c92e65a5eedc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6f47b2ca5612c8a9",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "MAUI.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for MAUI"
+            }
+          },
+          {
+            "id": "4a7548c7fcda165a",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "MAUI.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from MAUI"
+            }
+          },
+          {
+            "id": "76ff2260d0e7b42e",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "89e4744cc0d24347",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "MAUI.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of MAUI"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "bases:Create new base": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "1cf2bb395998661b",
+  "lastOpenFiles": [
+    "SQL/_SQL ~ MENU.md",
+    "OBSIDIAN/LICENSE",
+    "OBSIDIAN",
+    "SQL/Выборка Данных.md",
+    "SQL/Расширенные Возможности.md",
+    "SQL/Подзапросы.md",
+    "SQL/Объединение Таблиц.md",
+    "SQL/Подключение к Базы Данных, импорт, экспорт.md",
+    "SQL/Транзакции.md",
+    "SQL/Манипуляция Данными.md",
+    "SQL/Типы Данных.md",
+    "SQL/Работа с Таблицами.md",
+    "SQL/Процедуры.md",
+    "SQL/Группировка.md",
+    "SQL/Пользовательские функции.md",
+    "SQL/Встроенные Функции.md",
+    "SQL/Сортировка order by.md",
+    "SQL/Пагинация (LIMIT и OFFSET).md",
+    "SQL/Администрирование.md",
+    "SQL/Фильтрация.md",
+    "SQL/ФОРМАТЫ ДАТЫ.md",
+    "SQL/Переменные.md",
+    "Image/SQLJOIN.jpg",
+    "Main.md",
+    "SQL/примеры функций.md",
+    "SQL/🧩ТРАНЗАКЦИИ.md",
+    "UNIX/UNIX_MAIN.md",
+    "CSharp/Зависимости (Di).md",
+    "Image",
+    "SQL",
+    "UNIX",
+    "Git & GitHub",
+    "CSharp/ASP.Net",
+    "CSharp/Entity Framework",
+    "React and JS",
+    "CSharp",
+    "Vibe-Room-.jpeg"
+  ]
+}
