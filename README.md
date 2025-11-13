@@ -4,4 +4,6 @@
 - SQL
 - .Net (стэк Microsoft: C#, ASP, MAUI, WPF, Avalonia, MS SQL)
 - ADB (во время отладки своего приложения на MAUI пользовался некоторыми командами и решил записать их)
+<img width="1919" height="1077" alt="image" src="https://github.com/user-attachments/assets/9c6e6690-1bac-436e-b2c1-fc52b9b62082" />
+
 ###### Со временем появится больше полезностей...
