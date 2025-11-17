@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "ad6fdaa7b5b71d3b",
+        "id": "29305458e460200f",
         "type": "tabs",
         "children": [
           {
-            "id": "1cf2bb395998661b",
+            "id": "11ccf5963b9c8352",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SQL/Объединение Таблиц JOIN.md",
+                "file": "CSharp/1.Dot Net.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Объединение Таблиц JOIN"
+              "title": "1.Dot Net"
             }
           }
         ]
@@ -169,8 +169,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1cf2bb395998661b",
+  "active": "11ccf5963b9c8352",
   "lastOpenFiles": [
+    "Untitled 1.base",
+    "Untitled.base",
+    "Untitled.canvas",
+    "CSharp/1.Dot Net.md",
+    "Untitled.md",
+    "CSharp/Зависимости (Di).md",
+    "CSharp/MAUI/Темы.md",
+    "SQL/Объединение Таблиц JOIN.md",
     "SQL/_SQL ~ MENU.md",
     "SQL/Работа с Таблицами.md",
     "SQL/Условные операторы.md",
@@ -185,7 +193,6 @@
     "SQL/Выборка Данных.md",
     "SQL/Расширенные Возможности.md",
     "SQL/Подзапросы.md",
-    "SQL/Объединение Таблиц JOIN.md",
     "SQL/Подключение к Базы Данных, импорт, экспорт.md",
     "SQL/Манипуляция Данными.md",
     "SQL/Типы Данных.md",
@@ -194,20 +201,13 @@
     "SQL/Встроенные Функции.md",
     "SQL/Сортировка order by.md",
     "SQL/Пагинация (LIMIT и OFFSET).md",
-    "SQL/ФОРМАТЫ ДАТЫ.md",
-    "SQL/Переменные.md",
     "Image/SQLJOIN.jpg",
-    "Main.md",
-    "SQL/🧩ТРАНЗАКЦИИ.md",
-    "UNIX/UNIX_MAIN.md",
     "Image",
     "SQL",
     "UNIX",
     "Git & GitHub",
     "CSharp/ASP.Net",
     "CSharp/Entity Framework",
-    "React and JS",
-    "CSharp",
     "Vibe-Room-.jpeg"
   ]
 }
