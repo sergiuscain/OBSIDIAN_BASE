@@ -1,5 +1,5 @@
 ##  Объединение Таблиц
-### 1. INNER JOIN (Внутреннее соединение)
+### 1) INNER JOIN (Внутреннее соединение)
 Возвращает только строки, где есть совпадение в обеих таблицах.
 ```sql
 SELECT users.name, orders.total
@@ -21,6 +21,13 @@ LEFT JOIN orders ON users.id = orders.user_id;
 SELECT users.name, orders.total
 FROM users
 RIGHT JOIN orders ON users.id = orders.user_id;
+```
+ ### 4) FULL JOIN (Полное соединение)
+Возвращает все строки из обеих таблиц.
+```sql
+SELECT o.order_id, o.order_date, c.customer_name 
+FROM orders AS o 
+FULL JOIN customers c ON o.customer_id = c.customer_id
 ```
 ### Шпаргалка Join
 ![[SQLJOIN.jpg]]
