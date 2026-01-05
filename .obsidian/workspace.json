@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSharp/Коллекции/HashSet.md",
+                "file": "CSharp/Коллекции/Словарь Dictionary.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "HashSet"
+              "title": "Словарь Dictionary"
             }
           }
         ]
@@ -171,10 +171,11 @@
   },
   "active": "1e96dbd5746559dd",
   "lastOpenFiles": [
-    "CSharp/Коллекции/Лист List.md",
     "CSharp/Коллекции/Очередь Queue.md",
-    "CSharp/Коллекции/Стэк Stack.md",
     "CSharp/Коллекции/HashSet.md",
+    "CSharp/Коллекции/Стэк Stack.md",
+    "CSharp/Коллекции/Словарь Dictionary.md",
+    "CSharp/Коллекции/Лист List.md",
     "CSharp/1.Dot Net.md",
     "CSharp/2 Типы данных.md",
     "CSharp/Коллекции",
@@ -203,7 +204,6 @@
     "SQL/Расширенные Возможности.md",
     "SQL/Подзапросы.md",
     "SQL/Подключение к Базы Данных, импорт, экспорт.md",
-    "SQL/Манипуляция Данными.md",
     "Image",
     "SQL",
     "UNIX",
