@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSharp/Коллекции/Очередь Queue.md",
+                "file": "CSharp/Коллекции/HashSet.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Очередь Queue"
+              "title": "HashSet"
             }
           }
         ]
@@ -172,8 +172,9 @@
   "active": "1e96dbd5746559dd",
   "lastOpenFiles": [
     "CSharp/Коллекции/Лист List.md",
-    "CSharp/Коллекции/Стэк Stack.md",
     "CSharp/Коллекции/Очередь Queue.md",
+    "CSharp/Коллекции/Стэк Stack.md",
+    "CSharp/Коллекции/HashSet.md",
     "CSharp/1.Dot Net.md",
     "CSharp/2 Типы данных.md",
     "CSharp/Коллекции",
@@ -203,7 +204,6 @@
     "SQL/Подзапросы.md",
     "SQL/Подключение к Базы Данных, импорт, экспорт.md",
     "SQL/Манипуляция Данными.md",
-    "SQL/Типы Данных.md",
     "Image",
     "SQL",
     "UNIX",
