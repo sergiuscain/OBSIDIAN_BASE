@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSharp/Коллекции/Стэк Stack.md",
+                "file": "CSharp/Коллекции/Очередь Queue.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Стэк Stack"
+              "title": "Очередь Queue"
             }
           }
         ]
@@ -173,6 +173,7 @@
   "lastOpenFiles": [
     "CSharp/Коллекции/Лист List.md",
     "CSharp/Коллекции/Стэк Stack.md",
+    "CSharp/Коллекции/Очередь Queue.md",
     "CSharp/1.Dot Net.md",
     "CSharp/2 Типы данных.md",
     "CSharp/Коллекции",
@@ -203,7 +204,6 @@
     "SQL/Подключение к Базы Данных, импорт, экспорт.md",
     "SQL/Манипуляция Данными.md",
     "SQL/Типы Данных.md",
-    "SQL/Группировка.md",
     "Image",
     "SQL",
     "UNIX",
