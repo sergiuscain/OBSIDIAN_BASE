@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "29305458e460200f",
+        "id": "afb02951ad8a8ad3",
         "type": "tabs",
         "children": [
           {
-            "id": "11ccf5963b9c8352",
+            "id": "1e96dbd5746559dd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSharp/4  Virtual и Abstract методы.md",
+                "file": "CSharp/Коллекции/Стэк Stack.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "4  Virtual и Abstract методы"
+              "title": "Стэк Stack"
             }
           }
         ]
@@ -169,27 +169,30 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "11ccf5963b9c8352",
+  "active": "1e96dbd5746559dd",
   "lastOpenFiles": [
-    "CSharp/3 Интерфесы и абстрактные классы.md",
-    "CSharp/4  Virtual и Abstract методы.md",
-    "CSharp/2 Типы данных.md",
     "CSharp/1.Dot Net.md",
+    "CSharp/Коллекции/Стэк Stack.md",
+    "CSharp/2 Типы данных.md",
+    "CSharp/Коллекции",
+    "CSharp/3 Интерфейсы и абстрактные классы.md",
+    "ADB/ADB_MAIN.md",
+    "SQL/_SQL ~ MENU.md",
+    "MAUI/Темы.md",
+    "Image/SQLJOIN.jpg",
+    "CSharp/4  Virtual и Abstract методы.md",
     "CSharp/Зависимости (Di).md",
     "Untitled 1.base",
     "Untitled.base",
     "Untitled.canvas",
     "Untitled.md",
-    "MAUI/Темы.md",
     "SQL/Объединение Таблиц JOIN.md",
-    "SQL/_SQL ~ MENU.md",
     "SQL/Работа с Таблицами.md",
     "SQL/Условные операторы.md",
     "SQL/Процедуры.md",
     "SQL/Транзакции.md",
     "SQL/примеры функций.md",
     "SQL/Фильтрация.md",
-    "ADB/ADB_MAIN.md",
     "SQL/Администрирование.md",
     "OBSIDIAN/LICENSE",
     "OBSIDIAN",
@@ -201,14 +204,11 @@
     "SQL/Типы Данных.md",
     "SQL/Группировка.md",
     "SQL/Пользовательские функции.md",
-    "SQL/Встроенные Функции.md",
-    "Image/SQLJOIN.jpg",
     "Image",
     "SQL",
     "UNIX",
     "Git & GitHub",
     "CSharp/ASP.Net",
-    "CSharp/Entity Framework",
     "Vibe-Room-.jpeg"
   ]
 }
