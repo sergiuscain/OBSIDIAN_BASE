@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSharp/Коллекции/Лист List.md",
+                "file": "CSharp/Коллекции/Стэк Stack.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Лист List"
+              "title": "Стэк Stack"
             }
           }
         ]
@@ -171,8 +171,8 @@
   },
   "active": "1e96dbd5746559dd",
   "lastOpenFiles": [
-    "CSharp/Коллекции/Стэк Stack.md",
     "CSharp/Коллекции/Лист List.md",
+    "CSharp/Коллекции/Стэк Stack.md",
     "CSharp/1.Dot Net.md",
     "CSharp/2 Типы данных.md",
     "CSharp/Коллекции",
