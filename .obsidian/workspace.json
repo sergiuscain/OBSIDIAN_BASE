@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSharp/Коллекции/Словарь Dictionary.md",
+                "file": "CSharp/Условные операторы/switch.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Словарь Dictionary"
+              "title": "switch"
             }
           }
         ]
@@ -172,11 +172,13 @@
   "active": "1e96dbd5746559dd",
   "lastOpenFiles": [
     "CSharp/Коллекции/Очередь Queue.md",
-    "CSharp/Коллекции/HashSet.md",
-    "CSharp/Коллекции/Стэк Stack.md",
-    "CSharp/Коллекции/Словарь Dictionary.md",
+    "CSharp/Условные операторы/switch.md",
     "CSharp/Коллекции/Лист List.md",
     "CSharp/1.Dot Net.md",
+    "CSharp/Условные операторы",
+    "CSharp/Коллекции/Стэк Stack.md",
+    "CSharp/Коллекции/Словарь Dictionary.md",
+    "CSharp/Коллекции/HashSet.md",
     "CSharp/2 Типы данных.md",
     "CSharp/Коллекции",
     "CSharp/3 Интерфейсы и абстрактные классы.md",
@@ -203,12 +205,10 @@
     "SQL/Выборка Данных.md",
     "SQL/Расширенные Возможности.md",
     "SQL/Подзапросы.md",
-    "SQL/Подключение к Базы Данных, импорт, экспорт.md",
     "Image",
     "SQL",
     "UNIX",
     "Git & GitHub",
-    "CSharp/ASP.Net",
     "Vibe-Room-.jpeg"
   ]
 }
