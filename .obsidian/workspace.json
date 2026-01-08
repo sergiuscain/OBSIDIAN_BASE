@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSharp/Условные операторы/switch.md",
+                "file": "CSharp/Условные операторы/if  else if  else.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "switch"
+              "title": "if  else if  else"
             }
           }
         ]
@@ -171,12 +171,13 @@
   },
   "active": "1e96dbd5746559dd",
   "lastOpenFiles": [
-    "CSharp/Коллекции/Очередь Queue.md",
+    "CSharp/Коллекции/Стэк Stack.md",
+    "CSharp/Условные операторы/if  else if  else.md",
     "CSharp/Условные операторы/switch.md",
+    "CSharp/Коллекции/Очередь Queue.md",
     "CSharp/Коллекции/Лист List.md",
     "CSharp/1.Dot Net.md",
     "CSharp/Условные операторы",
-    "CSharp/Коллекции/Стэк Stack.md",
     "CSharp/Коллекции/Словарь Dictionary.md",
     "CSharp/Коллекции/HashSet.md",
     "CSharp/2 Типы данных.md",
@@ -204,7 +205,6 @@
     "OBSIDIAN",
     "SQL/Выборка Данных.md",
     "SQL/Расширенные Возможности.md",
-    "SQL/Подзапросы.md",
     "Image",
     "SQL",
     "UNIX",
