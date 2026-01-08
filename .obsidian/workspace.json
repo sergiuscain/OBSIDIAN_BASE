@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSharp/Циклы/for.md",
+                "file": "CSharp/Циклы/while (пока).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "for"
+              "title": "while (пока)"
             }
           }
         ]
@@ -171,8 +171,9 @@
   },
   "active": "1e96dbd5746559dd",
   "lastOpenFiles": [
-    "CSharp/Циклы/foreach.md",
     "CSharp/Циклы/for.md",
+    "CSharp/Циклы/while (пока).md",
+    "CSharp/Циклы/foreach.md",
     "CSharp/1.Dot Net.md",
     "CSharp/2 Типы данных.md",
     "CSharp/Условные операторы/if  else if  else.md",
@@ -203,7 +204,6 @@
     "SQL/Транзакции.md",
     "SQL/примеры функций.md",
     "SQL/Фильтрация.md",
-    "SQL/Администрирование.md",
     "OBSIDIAN/LICENSE",
     "OBSIDIAN",
     "Image",
