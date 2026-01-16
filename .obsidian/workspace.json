@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Docker/Запуск контейнеров.md",
+                "file": "Docker/run.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Запуск контейнеров"
+              "title": "run"
             }
           }
         ],
@@ -186,8 +186,9 @@
   },
   "active": "08bc4d14440c831d",
   "lastOpenFiles": [
+    "Docker/Основные команды.md",
+    "Docker/run.md",
     "Docker/1.1 Что это.md",
-    "Docker/Запуск контейнеров.md",
     "Docker/1.2 Основные команды.md",
     "Поиск работы/Стажировки.md",
     "Docker",
@@ -217,7 +218,6 @@
     "CSharp/4  Virtual и Abstract методы.md",
     "CSharp/3 Интерфейсы и абстрактные классы.md",
     "CSharp/Циклы/while (пока).md",
-    "CSharp/Циклы/for.md",
     "CSharp/Циклы",
     "CSharp/Условные операторы",
     "CSharp/Коллекции",
