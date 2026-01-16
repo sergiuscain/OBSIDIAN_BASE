@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Королев Сергей Сергеевич - C#/.NET-разработчик</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        body {
+            background-color: #f8f9fa;
+            color: #333;
+            line-height: 1.6;
+            padding: 20px;
+        }
+        .resume-container {
+            max-width: 1000px;
+            margin: 0 auto;
+            background: white;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+            border-radius: 12px;
+            overflow: hidden;
+        }
+        .header {
+            background: linear-gradient(135deg, #2c3e50, #4a6491);
+            color: white;
+            padding: 30px;
+            display: flex;
+            align-items: center;
+            gap: 25px;
+        }
+        .photo {
+            width: 140px;
+            height: 140px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid rgba(255,255,255,0.3);
+            flex-shrink: 0;
+        }
+        .header-info h1 {
+            font-size: 32px;
+            margin-bottom: 5px;
+        }
+        .header-info p {
+            font-size: 16px;
+            opacity: 0.9;
+            margin-bottom: 5px;
+        }
+        .contacts {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-top: 10px;
+        }
+        .contact-item {
+            background: rgba(255,255,255,0.15);
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 14px;
+        }
+        .contact-item a {
+            color: white;
+            text-decoration: none;
+        }
+        .contact-item a:hover {
+            text-decoration: underline;
+        }
+        .section {
+            padding: 25px 30px;
+            border-bottom: 1px solid #eaeaea;
+        }
+        .section:last-of-type {
+            border-bottom: none;
+        }
+        .section-title {
+            color: #2c3e50;
+            font-size: 22px;
+            margin-bottom: 20px;
+            padding-bottom: 8px;
+            border-bottom: 2px solid #4a6491;
+        }
+        .two-column {
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            gap: 20px;
+        }
+        .job, .edu-item {
+            margin-bottom: 20px;
+        }
+        .job:last-child, .edu-item:last-child {
+            margin-bottom: 0;
+        }
+        .job-period, .edu-period {
+            font-weight: 600;
+            color: #4a6491;
+            margin-bottom: 3px;
+        }
+        .job-company, .edu-place {
+            font-weight: 600;
+            font-size: 18px;
+            margin-bottom: 5px;
+        }
+        .job-position, .edu-specialty {
+            font-style: italic;
+            margin-bottom: 10px;
+            color: #555;
+        }
+        .job-description, .edu-description {
+            color: #666;
+        }
+        .skills-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 10px;
+        }
+        .skill-tag {
+            background: #eef2f7;
+            padding: 6px 14px;
+            border-radius: 20px;
+            font-size: 14px;
+            color: #2c3e50;
+            border: 1px solid #d0d9e6;
+        }
+        .projects-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 25px;
+            margin-top: 15px;
+        }
+        .project-card {
+            background: #f9fbfd;
+            border-radius: 10px;
+            padding: 20px;
+            border-left: 4px solid #4a6491;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.05);
+            transition: transform 0.2s;
+        }
+        .project-card:hover {
+            transform: translateY(-3px);
+        }
+        .project-title {
+            font-size: 18px;
+            color: #2c3e50;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .project-title::before {
+            content: "▸";
+            color: #4a6491;
+            font-weight: bold;
+        }
+        .project-tech {
+            font-size: 13px;
+            color: #666;
+            margin-bottom: 12px;
+            line-height: 1.5;
+        }
+        .project-description {
+            font-size: 14px;
+            color: #555;
+        }
+        .tag {
+            display: inline-block;
+            background: #4a6491;
+            color: white;
+            padding: 4px 10px;
+            border-radius: 12px;
+            font-size: 12px;
+            margin-right: 8px;
+            margin-bottom: 8px;
+        }
+        .salary {
+            font-size: 22px;
+            font-weight: bold;
+            color: #27ae60;
+            margin-top: 5px;
+        }
+        @media (max-width: 768px) {
+            .header {
+                flex-direction: column;
+                text-align: center;
+                gap: 20px;
+            }
+            .contacts {
+                justify-content: center;
+            }
+            .two-column {
+                grid-template-columns: 1fr;
+            }
+            .projects-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="resume-container">
+        <!-- Шапка с контактами -->
+        <div class="header">
+            <img src="https://i.imgur.com/placeholder.jpg" alt="Фото Королев Сергей" class="photo">
+            <div class="header-info">
+                <h1>Королев Сергей Сергеевич</h1>
+                <p><i class="fas fa-user"></i> Мужчина, 24 года, родился 2 июня 2001</p>
+                <p><i class="fas fa-map-marker-alt"></i> Проживает: Обнинск. Готов к переезду и командировкам</p>
+                <p><i class="fas fa-passport"></i> Гражданство: Россия, есть разрешение на работу</p>
+                <div class="contacts">
+                    <div class="contact-item"><i class="fas fa-phone"></i> +7 (953) 312-12-98</div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i> 
+                        <a href="mailto:sergiussmithe@gmail.com">sergiussmithe@gmail.com</a>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-github"></i> 
+                        <a href="https://github.com/sergiuscain" target="_blank">github.com/sergiuscain</a>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-telegram"></i> 
+                        <a href="https://t.me/sergiuscain" target="_blank">@sergiuscain</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Желаемая должность -->
+        <div class="section">
+            <h2 class="section-title"><i class="fas fa-bullseye"></i> Желаемая должность</h2>
+            <div style="display: flex; justify-content: space-between; align-items: center;">
+                <div>
+                    <h3 style="font-size: 24px; color: #2c3e50;">C#/.NET-разработчик</h3>
+                    <p>Специализация: Программист, разработчик</p>
+                    <p>Тип занятости: полная занятость</p>
+                    <p>Формат работы: гибрид, на месте, удалённо</p>
+                </div>
+                <div class="salary">85 000 ₽ на руки</div>
+            </div>
+        </div>
+
+        <!-- Опыт работы -->
+        <div class="section">
+            <h2 class="section-title"><i class="fas fa-briefcase"></i> Опыт работы — 5 лет</h2>
+            <div class="two-column">
+                <div class="job-period">Апрель 2024 — настоящее время<br>1 год 10 месяцев</div>
+                <div class="job">
+                    <div class="job-company">Фармацевтическое предприятие "Оболенское"</div>
+                    <div class="job-position">Оператор У.У ГЛС</div>
+                    <div class="job-description">
+                        Контроль работы автоматизированной производственной линии, наладка оборудования.
+                        <p style="margin-top: 8px; color: #4a6491; font-style: italic;">
+                            Этот опыт сформировал высокую дисциплину, ответственность и умение работать в регламентированном процессе, что полезно и в IT-разработке.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="two-column" style="margin-top: 20px;">
+                <div class="job-period">Февраль 2021 — Март 2024<br>3 года 2 месяца</div>
+                <div class="job">
+                    <div class="job-company">Комус</div>
+                    <div class="job-position">Укладчик-упаковщик</div>
+                    <div class="job-description">
+                        Упаковка готовой продукции на производстве канцтоваров и расходных материалов.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Образование -->
+        <div class="section">
+            <h2 class="section-title"><i class="fas fa-graduation-cap"></i> Образование</h2>
+            <div class="two-column">
+                <div class="edu-period">2027 (ожидается)<br>Среднее специальное</div>
+                <div class="edu-item">
+                    <div class="edu-place">Московский финансово-промышленный университет "Синергия", Москва</div>
+                    <div class="edu-specialty">Информационные системы и программирование, Программист</div>
+                    <div class="edu-description">Студент 3-го курса, активно развиваюсь в направлении Backend-разработки на C# и .NET.</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Навыки -->
+        <div class="section">
+            <h2 class="section-title"><i class="fas fa-code"></i> Навыки</h2>
+            <div style="margin-bottom: 20px;">
+                <h3 style="margin-bottom: 10px; color: #555;">Языки</h3>
+                <p><strong>Русский</strong> — родной</p>
+                <p><strong>Английский</strong> — B1 (Средний)</p>
+            </div>
+            <h3 style="margin-bottom: 10px; color: #555;">Технологии</h3>
+            <div class="skills-container">
+                <span class="skill-tag">C#</span>
+                <span class="skill-tag">.NET Core</span>
+                <span class="skill-tag">ASP.NET Core</span>
+                <span class="skill-tag">Entity Framework</span>
+                <span class="skill-tag">MVC</span>
+                <span class="skill-tag">MAUI</span>
+                <span class="skill-tag">REST API</span>
+                <span class="skill-tag">SQL</span>
+                <span class="skill-tag">MS SQL</span>
+                <span class="skill-tag">SQLite</span>
+                <span class="skill-tag">Git</span>
+                <span class="skill-tag">GitHub</span>
+                <span class="skill-tag">Docker</span>
+                <span class="skill-tag">RabbitMQ</span>
+                <span class="skill-tag">HTML/CSS</span>
+                <span class="skill-tag">Bootstrap</span>
+                <span class="skill-tag">JavaScript</span>
+                <span class="skill-tag">React</span>
+                <span class="skill-tag">JSON</span>
+                <span class="skill-tag">LINQ</span>
+                <span class="skill-tag">Unit Testing</span>
+                <span class="skill-tag">ООП</span>
+                <span class="skill-tag">Асинхронное программирование</span>
+            </div>
+        </div>
+
+        <!-- Проекты -->
+        <div class="section">
+            <h2 class="section-title"><i class="fas fa-project-diagram"></i> Проекты</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-title">AiAgentsChat</div>
+                    <div class="project-tech">
+                        <span class="tag">C#</span>
+                        <span class="tag">ASP.NET Core</span>
+                        <span class="tag">RabbitMQ</span>
+                        <span class="tag">React</span>
+                        <span class="tag">Docker</span>
+                        <span class="tag">LLM API</span>
+                    </div>
+                    <div class="project-description">
+                        Симуляция комнаты с AI-агентами. Пользователь создаёт агентов, задаёт тему, и они ведут диалог между собой. Используются локальные LLM-модели (LM Studio), брокер сообщений RabbitMQ для коммуникации, React-фронтенд.
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-title">Онлайн-магазин одежды</div>
+                    <div class="project-tech">
+                        <span class="tag">ASP.NET MVC</span>
+                        <span class="tag">Entity Framework</span>
+                        <span class="tag">MS SQL</span>
+                        <span class="tag">Bootstrap</span>
+                        <span class="tag">OAuth</span>
+                    </div>
+                    <div class="project-description">
+                        Полнофункциональный интернет-магазин с каталогом, фильтрами, корзиной, оформлением заказа. Реализована авторизация через Google и Yandex, панель администратора, пагинация.
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-title">Трекер спорта и питания</div>
+                    <div class="project-tech">
+                        <span class="tag">MAUI</span>
+                        <span class="tag">C#</span>
+                        <span class="tag">SQLite</span>
+                        <span class="tag">LiveCharts</span>
+                        <span class="tag">Entity Framework</span>
+                    </div>
+                    <div class="project-description">
+                        Кроссплатформенное мобильное приложение для отслеживания упражнений, веса и питания. Графики прогресса, мультиязычность (3 языка), смена тем. Опубликовано в RuStore.
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-title">Sigma Word</div>
+                    <div class="project-tech">
+                        <span class="tag">MAUI</span>
+                        <span class="tag">C#</span>
+                        <span class="tag">Entity Framework</span>
+                        <span class="tag">SQLite</span>
+                        <span class="tag">LiveCharts</span>
+                    </div>
+                    <div class="project-description">
+                        Приложение для изучения английских слов с системой повторений, категориями, целями и детальной статистикой. Визуализация прогресса через графики. Опубликовано в RuStore.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Обо мне -->
+        <div class="section">
+            <h2 class="section-title"><i class="fas fa-user"></i> Обо мне</h2>
+            <p style="font-size: 16px; color: #555;">
+                Студент 3-го курса, активно развиваюсь в направлении Backend-разработки на C# и .NET. 
+                Имею опыт коммерческой разработки: от проектирования на ASP.NET Core и MAUI до публикации приложений в магазине (RuStore). 
+                Ищу команду, где смогу применять и усиливать свои навыки, работая над реальными коммерческими проектами в качестве C# разработчика. 
+                Знаком на базовом уровне с React и JS. Готов к переезду.
+            </p>
+            <div style="margin-top: 15px; display: flex; gap: 15px; flex-wrap: wrap;">
+                <a href="https://github.com/sergiuscain" target="_blank" style="text-decoration: none; color: #4a6491; font-weight: 600;">
+                    <i class="fab fa-github"></i> GitHub
+                </a>
+                <a href="https://t.me/sergiuscain" target="_blank" style="text-decoration: none; color: #4a6491; font-weight: 600;">
+                    <i class="fab fa-telegram"></i> Telegram
+                </a>
+                <a href="mailto:sergiussmithe@gmail.com" style="text-decoration: none; color: #4a6491; font-weight: 600;">
+                    <i class="fas fa-envelope"></i> Email
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Небольшой скрипт для интерактивности -->
+    <script>
+        // Простая анимация при наведении на проекты
+        document.querySelectorAll('.project-card').forEach(card => {
+            card.addEventListener('mouseenter', function() {
+                this.style.boxShadow = '0 5px 15px rgba(0,0,0,0.1)';
+            });
+            card.addEventListener('mouseleave', function() {
+                this.style.boxShadow = '0 3px 10px rgba(0,0,0,0.05)';
+            });
+        });
+    </script>
+</body>
+</html>
