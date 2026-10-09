@@ -8,17 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "192cdd28b427befe",
+            "id": "fc2f90f703c03b78",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SQL/_SQL ~ MENU.md",
+                "file": "Docker/Основные команды.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "_SQL ~ MENU"
+              "title": "Основные команды"
             }
           }
         ]
@@ -44,7 +44,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Files"
+              "title": "Файловый менеджер"
             }
           },
           {
@@ -160,26 +160,29 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "bases:Create new base": false,
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "switcher:Меню быстрого перехода": false,
+      "graph:Граф": false,
+      "canvas:Создать новый холст": false,
+      "daily-notes:Сегодняшняя заметка": false,
+      "templates:Вставить шаблон": false,
+      "command-palette:Открыть палитру команд": false,
+      "bases:Создать новую базу": false
     }
   },
-  "active": "192cdd28b427befe",
+  "active": "fc2f90f703c03b78",
   "lastOpenFiles": [
+    "Docker/Флаги.md",
+    "Docker/Про тег. Почему нельзя писать просто postgres.md",
+    "Docker/Основные команды.md",
+    "Docker/run.md",
+    "Docker/container.md",
+    "Docker/1.1 Что это.md",
+    "CSharp/Условные операторы/switch.md",
     "SQL/Администрирование.md",
     "SQL/_SQL ~ MENU.md",
     "SQL/Объединение Таблиц JOIN.md",
     "Image/SQLJOIN.jpg",
-    "Docker/Основные команды.md",
-    "Docker/1.1 Что это.md",
     "UNIX/UNIX_MAIN.md",
-    "Docker/container.md",
-    "Docker/run.md",
     "Docker/1.2 Основные команды.md",
     "Поиск работы/Стажировки.md",
     "Docker",
@@ -197,13 +200,10 @@
     "2026-01-14.md",
     "CSharp/Условные операторы/if  else if  else.md",
     "CSharp/2 Типы данных.md",
-    "CSharp/Условные операторы/switch.md",
     "CSharp/Циклы/foreach.md",
     "CSharp/Коллекции/Лист List.md",
     "CSharp/Коллекции/HashSet.md",
     "CSharp/Коллекции/Стэк Stack.md",
-    "CSharp/Коллекции/Словарь Dictionary.md",
-    "CSharp/Коллекции/Очередь Queue.md",
     "CSharp/Циклы",
     "CSharp/Условные операторы",
     "CSharp/Коллекции",
