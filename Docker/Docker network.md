@@ -22,7 +22,7 @@ docker run -d --name mydb --network mynetwork -e POSTGRES_PASSWORD=secret postgr
 // было
 var connString = "Host=localhost;Port=5432;Database=postgres;Username=postgres;Password=secret";
 
-// стало
+// стало. 5432 - это внутренний порт!!
 var connString = "Host=mydb;Port=5432;Database=postgres;Username=postgres;Password=secret";
 ```
 
