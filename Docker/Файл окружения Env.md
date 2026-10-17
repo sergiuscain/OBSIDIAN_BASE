@@ -16,3 +16,36 @@ POSTGRES_PASSWORD=
 ConnectionStrings__Postgres=
 ```
 Дальше новый человек копирует `.env.example` в `.env` и вписывает в него свои значения.
+
+### Подключение env в compose
+Что бы использовать в compose файле переменные из файла `.env`, 
+пишем вместо реальных значений название переменных в скобках. 
+Перед скобками знак `$` :
+```yml
+services:
+  db:
+    image: postgres:17-alpine
+    environment:
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+
+  app:
+    build: .
+    environment:
+      ConnectionStrings__Postgres: ${ConnectionStrings__Postgres}
+```
+Настоящие значения лежат в `.env` рядом:
+```env
+POSTGRES_PASSWORD=secret
+ConnectionStrings__Postgres=Host=db;Port=5432;Database=reviews;Username=postgres;Password=secret
+```
+Команда `docker compose up` сама читает `.env` из той же папки и подставляет значения вместо подстановок. Пароль в `docker-compose.yml` не попадает, а значит не попадает и в git.
+### ### Отдельный файл для сервиса
+Подстановки через `${ИМЯ}` удобны, когда переменных пара штук. Но если у сервиса их много, перечислять каждую в `environment` утомительно. Тогда весь файл подключают одной строкой через `env_file`:
+```env
+app:
+  build: .
+  env_file: .env
+```
+Тут важно, чтобы имена в `.env` совпадали с тем, что ждет приложение. Мы не зря назвали переменную `ConnectionStrings__Postgres`. Директива `env_file` передаст ее в контейнер под этим же именем, и ASP.NET подхватит ее как ключ `Postgres` внутри `ConnectionStrings`. Если бы переменная называлась иначе, приложение бы ее не нашло.
+
+Можно завести и отдельный файл под конкретный сервис, например `.env`.db только для базы, и указать его в `env_file`. Так секреты разных сервисов не сваливаются в одну кучу.
