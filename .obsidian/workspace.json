@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSharp/_CSharp ~ Menu.md",
+                "file": "Алгоритмы/_Алгоритмы.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "_CSharp ~ Menu"
+              "title": "_Алгоритмы"
             }
           }
         ]
@@ -173,9 +173,13 @@
   },
   "active": "80ee224143d09f63",
   "lastOpenFiles": [
+    "Алгоритмы/Расчет временной сложности алгоритма.md",
+    "Алгоритмы/Расчет сложности по памяти алгоритма.md",
+    "Алгоритмы/_Алгоритмы.md",
+    "CSharp/_CSharp ~ Menu.md",
+    "Алгоритмы",
     "CSharp/Полезные фишки.md",
     "CSharp/in.md",
-    "CSharp/_CSharp ~ Menu.md",
     "Поиск работы/Топ вопросы по SQL.md",
     "Поиск работы/Топ вопросы по csharp.md",
     "Поиск работы/Стажировки.md",
@@ -196,9 +200,6 @@
     "CSharp/Коллекции/Коллекции.md",
     "CSharp/Коллекции/HashSet.md",
     "CSharp/Коллекции/Стэк Stack.md",
-    "CSharp/Коллекции/Словарь Dictionary.md",
-    "CSharp/Коллекции/Очередь Queue.md",
-    "CSharp/Коллекции/Лист List.md",
     "Docker/Основные команды",
     "Image/SQLJOIN.jpg",
     "Docker",
@@ -209,7 +210,6 @@
     "Поиск работы",
     "CSharp/Циклы",
     "CSharp/Условные операторы",
-    "CSharp/Коллекции",
     "Untitled.canvas",
     "Vibe-Room-.jpeg"
   ]
