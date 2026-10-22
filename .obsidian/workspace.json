@@ -11,10 +11,14 @@
             "id": "80ee224143d09f63",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "CSharp/_CSharp ~ Menu.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "Новая вкладка"
+              "title": "_CSharp ~ Menu"
             }
           }
         ]
@@ -169,6 +173,8 @@
   },
   "active": "80ee224143d09f63",
   "lastOpenFiles": [
+    "CSharp/Полезные фишки.md",
+    "CSharp/in.md",
     "CSharp/_CSharp ~ Menu.md",
     "Поиск работы/Топ вопросы по SQL.md",
     "Поиск работы/Топ вопросы по csharp.md",
@@ -177,7 +183,6 @@
     "Поиск работы/Вакансии компаний.md",
     "Поиск работы/_Поиск работы ~ Menu.md",
     "CSharp/1.Dot Net.md",
-    "CSharp/in.md",
     "CSharp/out.md",
     "Удаленный доступ.md",
     "CSharp/Условные операторы/Тернарный оператор - вопрос.md",
@@ -194,7 +199,6 @@
     "CSharp/Коллекции/Словарь Dictionary.md",
     "CSharp/Коллекции/Очередь Queue.md",
     "CSharp/Коллекции/Лист List.md",
-    "CSharp/Зависимости (Di).md",
     "Docker/Основные команды",
     "Image/SQLJOIN.jpg",
     "Docker",
