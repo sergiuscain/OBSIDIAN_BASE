@@ -1,7 +1,46 @@
-Добавляются
-В Asp:
+# Что это
+**Внедрение зависимостей (Dependency Injection, DI)** — это шаблон проектирования в объектно-ориентированном программировании, при котором объект получает свои зависимости (другие объекты, от которых он зависит) извне, а не создаёт их самостоятельно. Это позволяет снизить связанность между компонентами системы, повысить их модульность, тестируемость и переиспользуемость.
+
+# Добавляются
+В Asp в классе Program.cs:
 ``` c#
+using BinnoMetric.DataBase;
+using BinnoMetric.Service;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.OpenApi;
+
+var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.AddControllers();
+builder.Services.AddOpenApi();
+builder.Services.AddSwaggerGen(
+    options =>
+    {
+        var basePath = AppContext.BaseDirectory;
+        var xmlPath = Path.Combine(basePath, "BinnoMetricDoc.xml");
+        options.IncludeXmlComments(xmlPath, includeControllerXmlComments: true);
+        options.SwaggerDoc("v1", new OpenApiInfo
+        {
+            Version = "v1",
+            Title = "BinnoMetric",
+            Description = "ASP.NET Core Web API для учёта фармацевтического производства"
+        });
+    }
+);
+string connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
+builder.Services.AddDbContext<BinnoDBContext>(options => options.UseSqlServer(connectionString));
+
+builder.Services.AddTransient<EmployeesService>();
+builder.Services.AddTransient<IntegrationService>();
+builder.Services.AddTransient<ProductService>();
+builder.Services.AddTransient<DowntimeTypeService>();
+builder.Services.AddTransient<DowntimeRecordService>();
+builder.Services.AddTransient<ProductionRecordsService>();
+builder.Services.AddTransient<AnalyticsService>();
+builder.Services.AddTransient<EquipmentLineService>();
+builder.Services.AddCors(options =>
 ...
+var app = builder.Build();
 ```
 В Maui в классе MauiProgram.cs:
 ``` c#
@@ -56,4 +95,15 @@ namespace Sigma_Trainer
         }
     }
 }
+```
+# Используются
+Di контейнер получается через конструктор
+```c#
+public class AnalyticsController : ControllerBase
+{
+    private readonly AnalyticsService _analyticsService;
+    public AnalyticsController(AnalyticsService analyticsService)
+    {
+        _analyticsService = analyticsService;
+    }
 ```

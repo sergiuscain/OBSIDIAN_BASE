@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Docker/GitHub Actions.md",
+                "file": "CSharp/Зависимости (Di).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "GitHub Actions"
+              "title": "Зависимости (Di)"
             }
           }
         ]
@@ -173,8 +173,12 @@
   },
   "active": "023e9da36a65755a",
   "lastOpenFiles": [
-    "Docker/Docker Compose.md",
+    "CSharp/4  Virtual и Abstract методы.md",
+    "CSharp/3 Интерфейсы и абстрактные классы.md",
+    "CSharp/2 Типы данных.md",
+    "CSharp/1.Dot Net.md",
     "Docker/GitHub Actions.md",
+    "Docker/Docker Compose.md",
     "Docker/_Docker ~ MENU.md",
     "UNIX/UNIX_MAIN.md",
     "UNIX/Ssh.md",
@@ -195,12 +199,8 @@
     "Docker/Основные команды",
     "SQL/_SQL ~ MENU.md",
     "Docker/1.1 Что это.md",
-    "CSharp/1.Dot Net.md",
     "Image/SQLJOIN.jpg",
     "CSharp/Коллекции/Стэк Stack.md",
-    "Env.md",
-    "Docker/Docker network.md",
-    "CSharp/Условные операторы/switch.md",
     "Docker",
     "Поиск работы/Resume.html",
     "Поиск работы/Resume.txt",
