@@ -11,10 +11,14 @@
             "id": "9456e62f1d5ecad2",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Граф"
+              "type": "markdown",
+              "state": {
+                "file": "CSharp/Циклы/Операторы  break и continue.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Операторы  break и continue"
             }
           }
         ]
@@ -169,8 +173,13 @@
   },
   "active": "9456e62f1d5ecad2",
   "lastOpenFiles": [
-    "MAUI/Темы.md",
+    "CSharp/Циклы/Циклы.md",
     "CSharp/_CSharp ~ Menu.md",
+    "CSharp/Циклы/Операторы  break и continue.md",
+    "CSharp/Циклы/while.md",
+    "CSharp/Циклы/foreach.md",
+    "CSharp/Циклы/for.md",
+    "MAUI/Темы.md",
     "CSharp/Коллекции/Коллекции.md",
     "CSharp/Коллекции/HashSet.md",
     "CSharp/Коллекции/Стэк Stack.md",
@@ -181,7 +190,6 @@
     "Поиск работы/Стажировки.md",
     "Поиск работы/Вакансии компаний.md",
     "CSharp/Зависимости (Di).md",
-    "CSharp/Циклы/Циклы.md",
     "CSharp/3 Интерфейсы и абстрактные классы.md",
     "CSharp/Условные операторы/Условные операторы.md",
     "CSharp/4  Virtual и Abstract методы.md",
@@ -191,10 +199,6 @@
     "Docker/Docker Compose.md",
     "Docker/_Docker ~ MENU.md",
     "UNIX/UNIX_MAIN.md",
-    "UNIX/Ssh.md",
-    "Удаленный доступ.md",
-    "Docker/Volume.md",
-    "Docker/Основные команды/Основные команды.md",
     "Docker/Основные команды",
     "Image/SQLJOIN.jpg",
     "Docker",
