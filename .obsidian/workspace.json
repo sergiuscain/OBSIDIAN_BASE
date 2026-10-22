@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "ad5ea76278da69d8",
+        "id": "5023da9919f85345",
         "type": "tabs",
         "children": [
           {
-            "id": "f1854bd7ff6cd5c0",
+            "id": "80ee224143d09f63",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CSharp/_CSharp ~ Menu.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "_CSharp ~ Menu"
+              "title": "Новая вкладка"
             }
           }
         ]
@@ -171,10 +167,17 @@
       "bases:Создать новую базу": false
     }
   },
-  "active": "f1854bd7ff6cd5c0",
+  "active": "80ee224143d09f63",
   "lastOpenFiles": [
-    "CSharp/in.md",
     "CSharp/_CSharp ~ Menu.md",
+    "Поиск работы/Топ вопросы по SQL.md",
+    "Поиск работы/Топ вопросы по csharp.md",
+    "Поиск работы/Стажировки.md",
+    "Поиск работы/Вопросы для подготовки к собеседованию.md",
+    "Поиск работы/Вакансии компаний.md",
+    "Поиск работы/_Поиск работы ~ Menu.md",
+    "CSharp/1.Dot Net.md",
+    "CSharp/in.md",
     "CSharp/out.md",
     "Удаленный доступ.md",
     "CSharp/Условные операторы/Тернарный оператор - вопрос.md",
@@ -191,14 +194,7 @@
     "CSharp/Коллекции/Словарь Dictionary.md",
     "CSharp/Коллекции/Очередь Queue.md",
     "CSharp/Коллекции/Лист List.md",
-    "Поиск работы/Поиск работы.md",
-    "Поиск работы/Стажировки.md",
-    "Поиск работы/Вакансии компаний.md",
     "CSharp/Зависимости (Di).md",
-    "CSharp/3 Интерфейсы и абстрактные классы.md",
-    "CSharp/4  Virtual и Abstract методы.md",
-    "CSharp/2 Типы данных.md",
-    "CSharp/1.Dot Net.md",
     "Docker/Основные команды",
     "Image/SQLJOIN.jpg",
     "Docker",
