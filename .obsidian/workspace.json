@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "5023da9919f85345",
+        "id": "a3ba5f85bd005e05",
         "type": "tabs",
         "children": [
           {
-            "id": "80ee224143d09f63",
+            "id": "212ce4dd3b6b0107",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Алгоритмы/Линейный поиск.md",
-                "mode": "preview",
+                "file": "Docker/GitHub Actions.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Линейный поиск"
+              "title": "GitHub Actions"
             }
           }
         ]
@@ -171,35 +171,35 @@
       "bases:Создать новую базу": false
     }
   },
-  "active": "80ee224143d09f63",
+  "active": "212ce4dd3b6b0107",
   "lastOpenFiles": [
-    "Алгоритмы/Алгоритмы поиска.md",
-    "Алгоритмы/_Алгоритмы.md",
-    "Алгоритмы/Линейный поиск.md",
-    "Алгоритмы/Расчет временной сложности алгоритма.md",
-    "Алгоритмы/Расчет сложности по памяти алгоритма.md",
-    "CSharp/_CSharp ~ Menu.md",
-    "Алгоритмы",
-    "CSharp/Полезные фишки.md",
-    "CSharp/in.md",
-    "Поиск работы/Топ вопросы по SQL.md",
-    "Поиск работы/Топ вопросы по csharp.md",
-    "Поиск работы/Стажировки.md",
-    "Поиск работы/Вопросы для подготовки к собеседованию.md",
-    "Поиск работы/Вакансии компаний.md",
-    "Поиск работы/_Поиск работы ~ Menu.md",
-    "CSharp/1.Dot Net.md",
+    "Docker/Dockerfile.md",
+    "Docker/Docker network.md",
+    "Docker/Docker Compose.md",
+    "Docker/container.md",
+    "Docker/Флаги.md",
+    "Docker/Файл окружения Env.md",
+    "Docker/Секрет.md",
+    "Docker/Про тег. Почему нельзя писать просто postgres.md",
+    "Docker/1.1 Что это.md",
+    "Docker/_Docker ~ MENU.md",
+    "Docker/Основные команды/run.md",
+    "Docker/Основные команды/Основные команды.md",
     "CSharp/out.md",
-    "Удаленный доступ.md",
-    "CSharp/Условные операторы/Тернарный оператор - вопрос.md",
-    "CSharp/Условные операторы/Условные операторы.md",
-    "CSharp/Циклы/Операторы  break и continue.md",
-    "CSharp/Циклы/Циклы.md",
+    "CSharp/in.md",
+    "CSharp/delegate - Делегат.md",
+    "CSharp/Полезные фишки.md",
+    "CSharp/Зависимости (Di).md",
+    "CSharp/4  Virtual и Abstract методы.md",
+    "CSharp/3 Интерфейсы и абстрактные классы.md",
+    "CSharp/2 Типы данных.md",
+    "CSharp/1.Dot Net.md",
+    "CSharp/_CSharp ~ Menu.md",
     "CSharp/Циклы/while.md",
     "CSharp/Циклы/foreach.md",
     "CSharp/Циклы/for.md",
-    "MAUI/Темы.md",
-    "CSharp/Коллекции/Коллекции.md",
+    "CSharp/Циклы/Циклы.md",
+    "Алгоритмы",
     "Docker/Основные команды",
     "Image/SQLJOIN.jpg",
     "Docker",
